@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="15828" started-at="2019-10-11T13:03:10 IST" finished-at="2019-10-11T13:03:26 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="15828" started-at="2019-10-11T13:03:10 IST" finished-at="2019-10-11T13:03:26 IST">
+      <class name="TestNgClasses.LoginTestCase">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:TestNgClasses.LoginTestCase@1fe2924]" name="launchBrowser" is-config="true" duration-ms="9058" started-at="2019-10-11T13:03:01 IST" finished-at="2019-10-11T13:03:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="verifyLogin()[pri:0, instance:TestNgClasses.LoginTestCase@1fe2924]" name="verifyLogin" duration-ms="3267" started-at="2019-10-11T13:03:10 IST" finished-at="2019-10-11T13:03:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method status="PASS" signature="addUser()[pri:0, instance:TestNgClasses.LoginTestCase@1fe2924]" name="addUser" duration-ms="12463" started-at="2019-10-11T13:03:14 IST" depends-on-methods="TestNgClasses.LoginTestCase.verifyLogin" finished-at="2019-10-11T13:03:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addUser -->
+      </class> <!-- TestNgClasses.LoginTestCase -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
